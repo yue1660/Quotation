@@ -1,0 +1,17 @@
+D:\work\Quotation\Code\Quotation\Quotation.Models\bin\Debug\Quotation.Models.pdb
+D:\work\Quotation\Code\Quotation\Quotation.Models\bin\Debug\EntityFramework.dll
+D:\work\Quotation\Code\Quotation\Quotation.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\work\Quotation\Code\Quotation\Quotation.Models\bin\Debug\SQLite.CodeFirst.dll
+D:\work\Quotation\Code\Quotation\Quotation.Models\bin\Debug\System.Data.SQLite.dll
+D:\work\Quotation\Code\Quotation\Quotation.Models\bin\Debug\EntityFramework.xml
+D:\work\Quotation\Code\Quotation\Quotation.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\work\Quotation\Code\Quotation\Quotation.Models\bin\Debug\System.Data.SQLite.xml
+D:\work\Quotation\Code\Quotation\Quotation.Models\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\work\Quotation\Code\Quotation\Quotation.Models\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\work\Quotation\Code\Quotation\Quotation.Models\obj\Debug\Quotation.Models.pdb
+D:\work\Quotation\Code\Quotation\Quotation.Models\bin\Debug\System.Data.SQLite.EF6.dll
+D:\work\Quotation\Code\Quotation\Quotation.Models\bin\Debug\System.Data.SQLite.Linq.dll
+D:\work\Quotation\Code\Quotation\Quotation.Models\obj\Debug\Quotation.Models.csprojResolveAssemblyReference.cache
+D:\work\Quotation\Code\Quotation\Quotation.Models\bin\Debug\Quotation.Models.dll.config
+D:\work\Quotation\Code\Quotation\Quotation.Models\bin\Debug\Quotation.Models.dll
+D:\work\Quotation\Code\Quotation\Quotation.Models\obj\Debug\Quotation.Models.dll

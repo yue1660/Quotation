@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QuotationModel.Store" Provider="System.Data.SQLite.EF6" ProviderManifestToken="data source=D:\Quotation.db" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Project">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sjbj" Type="int" />
+    <Property Name="Szsj" Type="datetime" />
+    <Property Name="XMMC" Type="nvarchar" MaxLength="500" />
+    <Property Name="Mb" Type="nvarchar" MaxLength="100" />
+    <Property Name="Lj" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="Bzdw" Type="nvarchar" MaxLength="500" />
+    <Property Name="Bznf" Type="int" />
+    <Property Name="Bz" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="Dwdh" Type="nvarchar" MaxLength="500" />
+    <Property Name="Dwqc" Type="nvarchar" MaxLength="500" />
+    <Property Name="Szssdq" Type="nvarchar" MaxLength="500" />
+    <Property Name="Pzjdbs" Type="nvarchar" MaxLength="500" />
+    <Property Name="Ssjdbj" Type="nvarchar" MaxLength="500" />
+    <Property Name="Sshylb" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="q1765_jsf">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sjbj" Type="int" />
+    <Property Name="Szsj" Type="datetime" />
+    <Property Name="Sfsd" Type="bit" />
+    <Property Name="Ztbj" Type="int" />
+    <Property Name="ProjectID" Type="nvarchar" MaxLength="50" />
+    <Property Name="PID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Xh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mc" Type="nvarchar" MaxLength="500" />
+    <Property Name="Hj" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Cs" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Xss" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Bzje" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Je" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Qtfy" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Fl" Type="nvarchar" MaxLength="500" />
+    <Property Name="Bz" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz1" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz2" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz3" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="q1765_jszlf">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sjbj" Type="int" />
+    <Property Name="Szsj" Type="datetime" />
+    <Property Name="Sfsd" Type="bit" />
+    <Property Name="Ztbj" Type="int" />
+    <Property Name="ProjectID" Type="nvarchar" MaxLength="50" />
+    <Property Name="PID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Xh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mc" Type="nvarchar" MaxLength="500" />
+    <Property Name="Hj" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Sl" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Dj" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Je" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Qtfy" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Fl" Type="nvarchar" MaxLength="500" />
+    <Property Name="Bz" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz1" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz2" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz3" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="q1765_psf">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sjbj" Type="int" />
+    <Property Name="Szsj" Type="datetime" />
+    <Property Name="Sfsd" Type="bit" />
+    <Property Name="Ztbj" Type="int" />
+    <Property Name="ProjectID" Type="nvarchar" MaxLength="50" />
+    <Property Name="PID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Xh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mc" Type="nvarchar" MaxLength="500" />
+    <Property Name="Hj" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Cs" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Ts" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="HyfRs" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="HyfBz" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="HyfXj" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="ClfRs" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="ClfSsbz" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="ClfSsf" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="ClfJtfbz" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="ClfJtf" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="ClfXj" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="ZjzxfRs" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="ZjzxfBz" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="ZjzxfXj" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Qtfy" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Fl" Type="nvarchar" MaxLength="500" />
+    <Property Name="Bz" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz1" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz2" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz3" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="q1765_rdf">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sjbj" Type="int" />
+    <Property Name="Szsj" Type="datetime" />
+    <Property Name="Sfsd" Type="bit" />
+    <Property Name="Ztbj" Type="int" />
+    <Property Name="ProjectID" Type="nvarchar" MaxLength="50" />
+    <Property Name="PID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Xh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mc" Type="nvarchar" MaxLength="500" />
+    <Property Name="Fylx" Type="nvarchar" MaxLength="500" />
+    <Property Name="Jldw" Type="nvarchar" MaxLength="500" />
+    <Property Name="Hj" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Yl" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Dj" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Je" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Qtfy" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Bz" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz1" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz2" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz3" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="q1765_wgcpj">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sjbj" Type="int" />
+    <Property Name="Szsj" Type="datetime" />
+    <Property Name="Sfsd" Type="bit" />
+    <Property Name="Ztbj" Type="int" />
+    <Property Name="ProjectID" Type="nvarchar" MaxLength="50" />
+    <Property Name="PID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Xh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mc" Type="nvarchar" MaxLength="500" />
+    <Property Name="Xh2" Type="nvarchar" MaxLength="500" />
+    <Property Name="Gg" Type="nvarchar" MaxLength="500" />
+    <Property Name="Jldw" Type="nvarchar" MaxLength="500" />
+    <Property Name="Jehj" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Clfxj" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Qtfy" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Jgyj" Type="nvarchar" MaxLength="500" />
+    <Property Name="Gys" Type="nvarchar" MaxLength="500" />
+    <Property Name="Dl" Type="nvarchar" MaxLength="500" />
+    <Property Name="Zl" Type="nvarchar" MaxLength="500" />
+    <Property Name="Clbm" Type="nvarchar" MaxLength="500" />
+    <Property Name="Bz" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz1" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz2" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz3" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="q1765_yfcl">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sjbj" Type="int" />
+    <Property Name="Szsj" Type="datetime" />
+    <Property Name="Sfsd" Type="bit" />
+    <Property Name="Ztbj" Type="int" />
+    <Property Name="ProjectID" Type="nvarchar" MaxLength="50" />
+    <Property Name="PID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Xh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mc" Type="nvarchar" MaxLength="500" />
+    <Property Name="Xh2" Type="nvarchar" MaxLength="500" />
+    <Property Name="Gg" Type="nvarchar" MaxLength="500" />
+    <Property Name="Jldw" Type="nvarchar" MaxLength="500" />
+    <Property Name="Jehj" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Tcsl" Type="int" />
+    <Property Name="Djyl" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Dj" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Clfxj" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Qtfy" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Jgyj" Type="nvarchar" MaxLength="500" />
+    <Property Name="Gys" Type="nvarchar" MaxLength="500" />
+    <Property Name="Dl" Type="nvarchar" MaxLength="500" />
+    <Property Name="Zl" Type="nvarchar" MaxLength="500" />
+    <Property Name="Clbm" Type="nvarchar" MaxLength="500" />
+    <Property Name="Bz" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz1" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz2" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz3" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="q1765_zb">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sjbj" Type="int" />
+    <Property Name="Czsj" Type="datetime" />
+    <Property Name="Sfsd" Type="bit" />
+    <Property Name="Ztbj" Type="int" />
+    <Property Name="ProjectID" Type="nvarchar" MaxLength="50" />
+    <Property Name="PID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Xh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mc" Type="nvarchar" MaxLength="500" />
+    <Property Name="Sjlx" Type="int" />
+    <Property Name="Mbjf" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Gshj" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="SjfJe" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="ClfJe" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="ClfQzbjt" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="ClfQzrdf" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="WxfJe" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="WxfQzbjt" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="ZyfJe" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="ZyfQzbjt" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="SyfJe" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="GzfJe" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="GzJe" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="GlfBl" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="GlfJe" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="XjJe" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="SyBl" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="SyJe" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="BkyjfBl" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="BkyjfJe" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Qtfy" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Rwlx" Type="nvarchar" MaxLength="500" />
+    <Property Name="Cydw" Type="nvarchar" MaxLength="500" />
+    <Property Name="Bbdw" Type="nvarchar" MaxLength="500" />
+    <Property Name="Ptsl" Type="decimal" Precision="16" Scale="2" />
+    <Property Name="Sm" Type="nvarchar" MaxLength="500" />
+    <Property Name="Rwbm" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz1" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz2" Type="nvarchar" MaxLength="500" />
+    <Property Name="Kz3" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <Association Name="FK_q1765_jsf_0_0">
+    <End Role="Project" Type="Self.Project" Multiplicity="0..1" />
+    <End Role="q1765_jsf" Type="Self.q1765_jsf" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="q1765_jsf">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_q1765_jszlf_0_0">
+    <End Role="Project" Type="Self.Project" Multiplicity="0..1" />
+    <End Role="q1765_jszlf" Type="Self.q1765_jszlf" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="q1765_jszlf">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_q1765_psf_0_0">
+    <End Role="Project" Type="Self.Project" Multiplicity="0..1" />
+    <End Role="q1765_psf" Type="Self.q1765_psf" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="q1765_psf">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_q1765_rdf_0_0">
+    <End Role="Project" Type="Self.Project" Multiplicity="0..1" />
+    <End Role="q1765_rdf" Type="Self.q1765_rdf" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="q1765_rdf">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_q1765_wgcpj_0_0">
+    <End Role="Project" Type="Self.Project" Multiplicity="0..1" />
+    <End Role="q1765_wgcpj" Type="Self.q1765_wgcpj" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="q1765_wgcpj">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_q1765_yfcl_0_0">
+    <End Role="Project" Type="Self.Project" Multiplicity="0..1" />
+    <End Role="q1765_yfcl" Type="Self.q1765_yfcl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="q1765_yfcl">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_q1765_zb_0_0">
+    <End Role="Project" Type="Self.Project" Multiplicity="0..1" />
+    <End Role="q1765_zb" Type="Self.q1765_zb" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="q1765_zb">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QuotationModelStoreContainer">
+    <EntitySet Name="Project" EntityType="Self.Project" store:Type="Tables" />
+    <EntitySet Name="q1765_jsf" EntityType="Self.q1765_jsf" store:Type="Tables" />
+    <EntitySet Name="q1765_jszlf" EntityType="Self.q1765_jszlf" store:Type="Tables" />
+    <EntitySet Name="q1765_psf" EntityType="Self.q1765_psf" store:Type="Tables" />
+    <EntitySet Name="q1765_rdf" EntityType="Self.q1765_rdf" store:Type="Tables" />
+    <EntitySet Name="q1765_wgcpj" EntityType="Self.q1765_wgcpj" store:Type="Tables" />
+    <EntitySet Name="q1765_yfcl" EntityType="Self.q1765_yfcl" store:Type="Tables" />
+    <EntitySet Name="q1765_zb" EntityType="Self.q1765_zb" store:Type="Tables" />
+    <AssociationSet Name="FK_q1765_jsf_0_0" Association="Self.FK_q1765_jsf_0_0">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="q1765_jsf" EntitySet="q1765_jsf" />
+    </AssociationSet>
+    <AssociationSet Name="FK_q1765_jszlf_0_0" Association="Self.FK_q1765_jszlf_0_0">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="q1765_jszlf" EntitySet="q1765_jszlf" />
+    </AssociationSet>
+    <AssociationSet Name="FK_q1765_psf_0_0" Association="Self.FK_q1765_psf_0_0">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="q1765_psf" EntitySet="q1765_psf" />
+    </AssociationSet>
+    <AssociationSet Name="FK_q1765_rdf_0_0" Association="Self.FK_q1765_rdf_0_0">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="q1765_rdf" EntitySet="q1765_rdf" />
+    </AssociationSet>
+    <AssociationSet Name="FK_q1765_wgcpj_0_0" Association="Self.FK_q1765_wgcpj_0_0">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="q1765_wgcpj" EntitySet="q1765_wgcpj" />
+    </AssociationSet>
+    <AssociationSet Name="FK_q1765_yfcl_0_0" Association="Self.FK_q1765_yfcl_0_0">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="q1765_yfcl" EntitySet="q1765_yfcl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_q1765_zb_0_0" Association="Self.FK_q1765_zb_0_0">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="q1765_zb" EntitySet="q1765_zb" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

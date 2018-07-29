@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QuotationModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="QuotationEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Project" EntityType="QuotationModel.Project" />
+    <EntitySet Name="q1765_jsf" EntityType="QuotationModel.q1765_jsf" />
+    <EntitySet Name="q1765_jszlf" EntityType="QuotationModel.q1765_jszlf" />
+    <EntitySet Name="q1765_psf" EntityType="QuotationModel.q1765_psf" />
+    <EntitySet Name="q1765_rdf" EntityType="QuotationModel.q1765_rdf" />
+    <EntitySet Name="q1765_wgcpj" EntityType="QuotationModel.q1765_wgcpj" />
+    <EntitySet Name="q1765_yfcl" EntityType="QuotationModel.q1765_yfcl" />
+    <EntitySet Name="q1765_zb" EntityType="QuotationModel.q1765_zb" />
+    <AssociationSet Name="FK_q1765_jsf_0_0" Association="QuotationModel.FK_q1765_jsf_0_0">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="q1765_jsf" EntitySet="q1765_jsf" />
+    </AssociationSet>
+    <AssociationSet Name="FK_q1765_jszlf_0_0" Association="QuotationModel.FK_q1765_jszlf_0_0">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="q1765_jszlf" EntitySet="q1765_jszlf" />
+    </AssociationSet>
+    <AssociationSet Name="FK_q1765_psf_0_0" Association="QuotationModel.FK_q1765_psf_0_0">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="q1765_psf" EntitySet="q1765_psf" />
+    </AssociationSet>
+    <AssociationSet Name="FK_q1765_rdf_0_0" Association="QuotationModel.FK_q1765_rdf_0_0">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="q1765_rdf" EntitySet="q1765_rdf" />
+    </AssociationSet>
+    <AssociationSet Name="FK_q1765_wgcpj_0_0" Association="QuotationModel.FK_q1765_wgcpj_0_0">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="q1765_wgcpj" EntitySet="q1765_wgcpj" />
+    </AssociationSet>
+    <AssociationSet Name="FK_q1765_yfcl_0_0" Association="QuotationModel.FK_q1765_yfcl_0_0">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="q1765_yfcl" EntitySet="q1765_yfcl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_q1765_zb_0_0" Association="QuotationModel.FK_q1765_zb_0_0">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="q1765_zb" EntitySet="q1765_zb" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Project">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sjbj" Type="Int32" />
+    <Property Name="Szsj" Type="DateTime" Precision="3" />
+    <Property Name="XMMC" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Mb" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Lj" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="Bzdw" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Bznf" Type="Int32" />
+    <Property Name="Bz" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+    <Property Name="Dwdh" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Dwqc" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Szssdq" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Pzjdbs" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Ssjdbj" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Sshylb" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="q1765_jsf" Relationship="QuotationModel.FK_q1765_jsf_0_0" FromRole="Project" ToRole="q1765_jsf" />
+    <NavigationProperty Name="q1765_jszlf" Relationship="QuotationModel.FK_q1765_jszlf_0_0" FromRole="Project" ToRole="q1765_jszlf" />
+    <NavigationProperty Name="q1765_psf" Relationship="QuotationModel.FK_q1765_psf_0_0" FromRole="Project" ToRole="q1765_psf" />
+    <NavigationProperty Name="q1765_rdf" Relationship="QuotationModel.FK_q1765_rdf_0_0" FromRole="Project" ToRole="q1765_rdf" />
+    <NavigationProperty Name="q1765_wgcpj" Relationship="QuotationModel.FK_q1765_wgcpj_0_0" FromRole="Project" ToRole="q1765_wgcpj" />
+    <NavigationProperty Name="q1765_yfcl" Relationship="QuotationModel.FK_q1765_yfcl_0_0" FromRole="Project" ToRole="q1765_yfcl" />
+    <NavigationProperty Name="q1765_zb" Relationship="QuotationModel.FK_q1765_zb_0_0" FromRole="Project" ToRole="q1765_zb" />
+  </EntityType>
+  <EntityType Name="q1765_jsf">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sjbj" Type="Int32" />
+    <Property Name="Szsj" Type="DateTime" Precision="3" />
+    <Property Name="Sfsd" Type="Boolean" />
+    <Property Name="Ztbj" Type="Int32" />
+    <Property Name="ProjectID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Xh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Mc" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Hj" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Cs" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Xss" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Bzje" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Je" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Qtfy" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Fl" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Bz" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz1" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz2" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz3" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Project" Relationship="QuotationModel.FK_q1765_jsf_0_0" FromRole="q1765_jsf" ToRole="Project" />
+  </EntityType>
+  <EntityType Name="q1765_jszlf">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sjbj" Type="Int32" />
+    <Property Name="Szsj" Type="DateTime" Precision="3" />
+    <Property Name="Sfsd" Type="Boolean" />
+    <Property Name="Ztbj" Type="Int32" />
+    <Property Name="ProjectID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Xh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Mc" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Hj" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Sl" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Dj" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Je" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Qtfy" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Fl" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Bz" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz1" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz2" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz3" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Project" Relationship="QuotationModel.FK_q1765_jszlf_0_0" FromRole="q1765_jszlf" ToRole="Project" />
+  </EntityType>
+  <EntityType Name="q1765_psf">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sjbj" Type="Int32" />
+    <Property Name="Szsj" Type="DateTime" Precision="3" />
+    <Property Name="Sfsd" Type="Boolean" />
+    <Property Name="Ztbj" Type="Int32" />
+    <Property Name="ProjectID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Xh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Mc" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Hj" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Cs" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Ts" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="HyfRs" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="HyfBz" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="HyfXj" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="ClfRs" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="ClfSsbz" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="ClfSsf" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="ClfJtfbz" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="ClfJtf" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="ClfXj" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="ZjzxfRs" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="ZjzxfBz" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="ZjzxfXj" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Qtfy" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Fl" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Bz" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz1" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz2" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz3" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Project" Relationship="QuotationModel.FK_q1765_psf_0_0" FromRole="q1765_psf" ToRole="Project" />
+  </EntityType>
+  <EntityType Name="q1765_rdf">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sjbj" Type="Int32" />
+    <Property Name="Szsj" Type="DateTime" Precision="3" />
+    <Property Name="Sfsd" Type="Boolean" />
+    <Property Name="Ztbj" Type="Int32" />
+    <Property Name="ProjectID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Xh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Mc" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Fylx" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Jldw" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Hj" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Yl" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Dj" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Je" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Qtfy" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Bz" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz1" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz2" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz3" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Project" Relationship="QuotationModel.FK_q1765_rdf_0_0" FromRole="q1765_rdf" ToRole="Project" />
+  </EntityType>
+  <EntityType Name="q1765_wgcpj">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sjbj" Type="Int32" />
+    <Property Name="Szsj" Type="DateTime" Precision="3" />
+    <Property Name="Sfsd" Type="Boolean" />
+    <Property Name="Ztbj" Type="Int32" />
+    <Property Name="ProjectID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Xh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Mc" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Xh2" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Gg" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Jldw" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Jehj" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Clfxj" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Qtfy" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Jgyj" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Gys" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Dl" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Zl" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Clbm" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Bz" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz1" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz2" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz3" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Project" Relationship="QuotationModel.FK_q1765_wgcpj_0_0" FromRole="q1765_wgcpj" ToRole="Project" />
+  </EntityType>
+  <EntityType Name="q1765_yfcl">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sjbj" Type="Int32" />
+    <Property Name="Szsj" Type="DateTime" Precision="3" />
+    <Property Name="Sfsd" Type="Boolean" />
+    <Property Name="Ztbj" Type="Int32" />
+    <Property Name="ProjectID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Xh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Mc" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Xh2" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Gg" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Jldw" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Jehj" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Tcsl" Type="Int32" />
+    <Property Name="Djyl" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Dj" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Clfxj" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Qtfy" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Jgyj" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Gys" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Dl" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Zl" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Clbm" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Bz" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz1" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz2" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz3" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Project" Relationship="QuotationModel.FK_q1765_yfcl_0_0" FromRole="q1765_yfcl" ToRole="Project" />
+  </EntityType>
+  <EntityType Name="q1765_zb">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sjbj" Type="Int32" />
+    <Property Name="Czsj" Type="DateTime" Precision="3" />
+    <Property Name="Sfsd" Type="Boolean" />
+    <Property Name="Ztbj" Type="Int32" />
+    <Property Name="ProjectID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Xh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Mc" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Sjlx" Type="Int32" />
+    <Property Name="Mbjf" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Gshj" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="SjfJe" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="ClfJe" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="ClfQzbjt" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="ClfQzrdf" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="WxfJe" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="WxfQzbjt" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="ZyfJe" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="ZyfQzbjt" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="SyfJe" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="GzfJe" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="GzJe" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="GlfBl" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="GlfJe" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="XjJe" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="SyBl" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="SyJe" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="BkyjfBl" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="BkyjfJe" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Qtfy" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Rwlx" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Cydw" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Bbdw" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Ptsl" Type="Decimal" Precision="16" Scale="2" />
+    <Property Name="Sm" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Rwbm" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz1" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz2" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Kz3" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Project" Relationship="QuotationModel.FK_q1765_zb_0_0" FromRole="q1765_zb" ToRole="Project" />
+  </EntityType>
+  <Association Name="FK_q1765_jsf_0_0">
+    <End Type="QuotationModel.Project" Role="Project" Multiplicity="0..1" />
+    <End Type="QuotationModel.q1765_jsf" Role="q1765_jsf" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="q1765_jsf">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_q1765_jszlf_0_0">
+    <End Type="QuotationModel.Project" Role="Project" Multiplicity="0..1" />
+    <End Type="QuotationModel.q1765_jszlf" Role="q1765_jszlf" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="q1765_jszlf">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_q1765_psf_0_0">
+    <End Type="QuotationModel.Project" Role="Project" Multiplicity="0..1" />
+    <End Type="QuotationModel.q1765_psf" Role="q1765_psf" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="q1765_psf">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_q1765_rdf_0_0">
+    <End Type="QuotationModel.Project" Role="Project" Multiplicity="0..1" />
+    <End Type="QuotationModel.q1765_rdf" Role="q1765_rdf" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="q1765_rdf">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_q1765_wgcpj_0_0">
+    <End Type="QuotationModel.Project" Role="Project" Multiplicity="0..1" />
+    <End Type="QuotationModel.q1765_wgcpj" Role="q1765_wgcpj" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="q1765_wgcpj">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_q1765_yfcl_0_0">
+    <End Type="QuotationModel.Project" Role="Project" Multiplicity="0..1" />
+    <End Type="QuotationModel.q1765_yfcl" Role="q1765_yfcl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="q1765_yfcl">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_q1765_zb_0_0">
+    <End Type="QuotationModel.Project" Role="Project" Multiplicity="0..1" />
+    <End Type="QuotationModel.q1765_zb" Role="q1765_zb" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="q1765_zb">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

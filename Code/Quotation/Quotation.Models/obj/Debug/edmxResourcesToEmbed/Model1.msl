@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QuotationModelStoreContainer" CdmEntityContainer="QuotationEntities">
+    <EntitySetMapping Name="Project">
+      <EntityTypeMapping TypeName="QuotationModel.Project">
+        <MappingFragment StoreEntitySet="Project">
+          <ScalarProperty Name="Sshylb" ColumnName="Sshylb" />
+          <ScalarProperty Name="Ssjdbj" ColumnName="Ssjdbj" />
+          <ScalarProperty Name="Pzjdbs" ColumnName="Pzjdbs" />
+          <ScalarProperty Name="Szssdq" ColumnName="Szssdq" />
+          <ScalarProperty Name="Dwqc" ColumnName="Dwqc" />
+          <ScalarProperty Name="Dwdh" ColumnName="Dwdh" />
+          <ScalarProperty Name="Bz" ColumnName="Bz" />
+          <ScalarProperty Name="Bznf" ColumnName="Bznf" />
+          <ScalarProperty Name="Bzdw" ColumnName="Bzdw" />
+          <ScalarProperty Name="Lj" ColumnName="Lj" />
+          <ScalarProperty Name="Mb" ColumnName="Mb" />
+          <ScalarProperty Name="XMMC" ColumnName="XMMC" />
+          <ScalarProperty Name="Szsj" ColumnName="Szsj" />
+          <ScalarProperty Name="Sjbj" ColumnName="Sjbj" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="q1765_jsf">
+      <EntityTypeMapping TypeName="QuotationModel.q1765_jsf">
+        <MappingFragment StoreEntitySet="q1765_jsf">
+          <ScalarProperty Name="Kz3" ColumnName="Kz3" />
+          <ScalarProperty Name="Kz2" ColumnName="Kz2" />
+          <ScalarProperty Name="Kz1" ColumnName="Kz1" />
+          <ScalarProperty Name="Bz" ColumnName="Bz" />
+          <ScalarProperty Name="Fl" ColumnName="Fl" />
+          <ScalarProperty Name="Qtfy" ColumnName="Qtfy" />
+          <ScalarProperty Name="Je" ColumnName="Je" />
+          <ScalarProperty Name="Bzje" ColumnName="Bzje" />
+          <ScalarProperty Name="Xss" ColumnName="Xss" />
+          <ScalarProperty Name="Cs" ColumnName="Cs" />
+          <ScalarProperty Name="Hj" ColumnName="Hj" />
+          <ScalarProperty Name="Mc" ColumnName="Mc" />
+          <ScalarProperty Name="Xh" ColumnName="Xh" />
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Ztbj" ColumnName="Ztbj" />
+          <ScalarProperty Name="Sfsd" ColumnName="Sfsd" />
+          <ScalarProperty Name="Szsj" ColumnName="Szsj" />
+          <ScalarProperty Name="Sjbj" ColumnName="Sjbj" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="q1765_jszlf">
+      <EntityTypeMapping TypeName="QuotationModel.q1765_jszlf">
+        <MappingFragment StoreEntitySet="q1765_jszlf">
+          <ScalarProperty Name="Kz3" ColumnName="Kz3" />
+          <ScalarProperty Name="Kz2" ColumnName="Kz2" />
+          <ScalarProperty Name="Kz1" ColumnName="Kz1" />
+          <ScalarProperty Name="Bz" ColumnName="Bz" />
+          <ScalarProperty Name="Fl" ColumnName="Fl" />
+          <ScalarProperty Name="Qtfy" ColumnName="Qtfy" />
+          <ScalarProperty Name="Je" ColumnName="Je" />
+          <ScalarProperty Name="Dj" ColumnName="Dj" />
+          <ScalarProperty Name="Sl" ColumnName="Sl" />
+          <ScalarProperty Name="Hj" ColumnName="Hj" />
+          <ScalarProperty Name="Mc" ColumnName="Mc" />
+          <ScalarProperty Name="Xh" ColumnName="Xh" />
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Ztbj" ColumnName="Ztbj" />
+          <ScalarProperty Name="Sfsd" ColumnName="Sfsd" />
+          <ScalarProperty Name="Szsj" ColumnName="Szsj" />
+          <ScalarProperty Name="Sjbj" ColumnName="Sjbj" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="q1765_psf">
+      <EntityTypeMapping TypeName="QuotationModel.q1765_psf">
+        <MappingFragment StoreEntitySet="q1765_psf">
+          <ScalarProperty Name="Kz3" ColumnName="Kz3" />
+          <ScalarProperty Name="Kz2" ColumnName="Kz2" />
+          <ScalarProperty Name="Kz1" ColumnName="Kz1" />
+          <ScalarProperty Name="Bz" ColumnName="Bz" />
+          <ScalarProperty Name="Fl" ColumnName="Fl" />
+          <ScalarProperty Name="Qtfy" ColumnName="Qtfy" />
+          <ScalarProperty Name="ZjzxfXj" ColumnName="ZjzxfXj" />
+          <ScalarProperty Name="ZjzxfBz" ColumnName="ZjzxfBz" />
+          <ScalarProperty Name="ZjzxfRs" ColumnName="ZjzxfRs" />
+          <ScalarProperty Name="ClfXj" ColumnName="ClfXj" />
+          <ScalarProperty Name="ClfJtf" ColumnName="ClfJtf" />
+          <ScalarProperty Name="ClfJtfbz" ColumnName="ClfJtfbz" />
+          <ScalarProperty Name="ClfSsf" ColumnName="ClfSsf" />
+          <ScalarProperty Name="ClfSsbz" ColumnName="ClfSsbz" />
+          <ScalarProperty Name="ClfRs" ColumnName="ClfRs" />
+          <ScalarProperty Name="HyfXj" ColumnName="HyfXj" />
+          <ScalarProperty Name="HyfBz" ColumnName="HyfBz" />
+          <ScalarProperty Name="HyfRs" ColumnName="HyfRs" />
+          <ScalarProperty Name="Ts" ColumnName="Ts" />
+          <ScalarProperty Name="Cs" ColumnName="Cs" />
+          <ScalarProperty Name="Hj" ColumnName="Hj" />
+          <ScalarProperty Name="Mc" ColumnName="Mc" />
+          <ScalarProperty Name="Xh" ColumnName="Xh" />
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Ztbj" ColumnName="Ztbj" />
+          <ScalarProperty Name="Sfsd" ColumnName="Sfsd" />
+          <ScalarProperty Name="Szsj" ColumnName="Szsj" />
+          <ScalarProperty Name="Sjbj" ColumnName="Sjbj" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="q1765_rdf">
+      <EntityTypeMapping TypeName="QuotationModel.q1765_rdf">
+        <MappingFragment StoreEntitySet="q1765_rdf">
+          <ScalarProperty Name="Kz3" ColumnName="Kz3" />
+          <ScalarProperty Name="Kz2" ColumnName="Kz2" />
+          <ScalarProperty Name="Kz1" ColumnName="Kz1" />
+          <ScalarProperty Name="Bz" ColumnName="Bz" />
+          <ScalarProperty Name="Qtfy" ColumnName="Qtfy" />
+          <ScalarProperty Name="Je" ColumnName="Je" />
+          <ScalarProperty Name="Dj" ColumnName="Dj" />
+          <ScalarProperty Name="Yl" ColumnName="Yl" />
+          <ScalarProperty Name="Hj" ColumnName="Hj" />
+          <ScalarProperty Name="Jldw" ColumnName="Jldw" />
+          <ScalarProperty Name="Fylx" ColumnName="Fylx" />
+          <ScalarProperty Name="Mc" ColumnName="Mc" />
+          <ScalarProperty Name="Xh" ColumnName="Xh" />
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Ztbj" ColumnName="Ztbj" />
+          <ScalarProperty Name="Sfsd" ColumnName="Sfsd" />
+          <ScalarProperty Name="Szsj" ColumnName="Szsj" />
+          <ScalarProperty Name="Sjbj" ColumnName="Sjbj" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="q1765_wgcpj">
+      <EntityTypeMapping TypeName="QuotationModel.q1765_wgcpj">
+        <MappingFragment StoreEntitySet="q1765_wgcpj">
+          <ScalarProperty Name="Kz3" ColumnName="Kz3" />
+          <ScalarProperty Name="Kz2" ColumnName="Kz2" />
+          <ScalarProperty Name="Kz1" ColumnName="Kz1" />
+          <ScalarProperty Name="Bz" ColumnName="Bz" />
+          <ScalarProperty Name="Clbm" ColumnName="Clbm" />
+          <ScalarProperty Name="Zl" ColumnName="Zl" />
+          <ScalarProperty Name="Dl" ColumnName="Dl" />
+          <ScalarProperty Name="Gys" ColumnName="Gys" />
+          <ScalarProperty Name="Jgyj" ColumnName="Jgyj" />
+          <ScalarProperty Name="Qtfy" ColumnName="Qtfy" />
+          <ScalarProperty Name="Clfxj" ColumnName="Clfxj" />
+          <ScalarProperty Name="Jehj" ColumnName="Jehj" />
+          <ScalarProperty Name="Jldw" ColumnName="Jldw" />
+          <ScalarProperty Name="Gg" ColumnName="Gg" />
+          <ScalarProperty Name="Xh2" ColumnName="Xh2" />
+          <ScalarProperty Name="Mc" ColumnName="Mc" />
+          <ScalarProperty Name="Xh" ColumnName="Xh" />
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Ztbj" ColumnName="Ztbj" />
+          <ScalarProperty Name="Sfsd" ColumnName="Sfsd" />
+          <ScalarProperty Name="Szsj" ColumnName="Szsj" />
+          <ScalarProperty Name="Sjbj" ColumnName="Sjbj" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="q1765_yfcl">
+      <EntityTypeMapping TypeName="QuotationModel.q1765_yfcl">
+        <MappingFragment StoreEntitySet="q1765_yfcl">
+          <ScalarProperty Name="Kz3" ColumnName="Kz3" />
+          <ScalarProperty Name="Kz2" ColumnName="Kz2" />
+          <ScalarProperty Name="Kz1" ColumnName="Kz1" />
+          <ScalarProperty Name="Bz" ColumnName="Bz" />
+          <ScalarProperty Name="Clbm" ColumnName="Clbm" />
+          <ScalarProperty Name="Zl" ColumnName="Zl" />
+          <ScalarProperty Name="Dl" ColumnName="Dl" />
+          <ScalarProperty Name="Gys" ColumnName="Gys" />
+          <ScalarProperty Name="Jgyj" ColumnName="Jgyj" />
+          <ScalarProperty Name="Qtfy" ColumnName="Qtfy" />
+          <ScalarProperty Name="Clfxj" ColumnName="Clfxj" />
+          <ScalarProperty Name="Dj" ColumnName="Dj" />
+          <ScalarProperty Name="Djyl" ColumnName="Djyl" />
+          <ScalarProperty Name="Tcsl" ColumnName="Tcsl" />
+          <ScalarProperty Name="Jehj" ColumnName="Jehj" />
+          <ScalarProperty Name="Jldw" ColumnName="Jldw" />
+          <ScalarProperty Name="Gg" ColumnName="Gg" />
+          <ScalarProperty Name="Xh2" ColumnName="Xh2" />
+          <ScalarProperty Name="Mc" ColumnName="Mc" />
+          <ScalarProperty Name="Xh" ColumnName="Xh" />
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Ztbj" ColumnName="Ztbj" />
+          <ScalarProperty Name="Sfsd" ColumnName="Sfsd" />
+          <ScalarProperty Name="Szsj" ColumnName="Szsj" />
+          <ScalarProperty Name="Sjbj" ColumnName="Sjbj" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="q1765_zb">
+      <EntityTypeMapping TypeName="QuotationModel.q1765_zb">
+        <MappingFragment StoreEntitySet="q1765_zb">
+          <ScalarProperty Name="Kz3" ColumnName="Kz3" />
+          <ScalarProperty Name="Kz2" ColumnName="Kz2" />
+          <ScalarProperty Name="Kz1" ColumnName="Kz1" />
+          <ScalarProperty Name="Rwbm" ColumnName="Rwbm" />
+          <ScalarProperty Name="Sm" ColumnName="Sm" />
+          <ScalarProperty Name="Ptsl" ColumnName="Ptsl" />
+          <ScalarProperty Name="Bbdw" ColumnName="Bbdw" />
+          <ScalarProperty Name="Cydw" ColumnName="Cydw" />
+          <ScalarProperty Name="Rwlx" ColumnName="Rwlx" />
+          <ScalarProperty Name="Qtfy" ColumnName="Qtfy" />
+          <ScalarProperty Name="BkyjfJe" ColumnName="BkyjfJe" />
+          <ScalarProperty Name="BkyjfBl" ColumnName="BkyjfBl" />
+          <ScalarProperty Name="SyJe" ColumnName="SyJe" />
+          <ScalarProperty Name="SyBl" ColumnName="SyBl" />
+          <ScalarProperty Name="XjJe" ColumnName="XjJe" />
+          <ScalarProperty Name="GlfJe" ColumnName="GlfJe" />
+          <ScalarProperty Name="GlfBl" ColumnName="GlfBl" />
+          <ScalarProperty Name="GzJe" ColumnName="GzJe" />
+          <ScalarProperty Name="GzfJe" ColumnName="GzfJe" />
+          <ScalarProperty Name="SyfJe" ColumnName="SyfJe" />
+          <ScalarProperty Name="ZyfQzbjt" ColumnName="ZyfQzbjt" />
+          <ScalarProperty Name="ZyfJe" ColumnName="ZyfJe" />
+          <ScalarProperty Name="WxfQzbjt" ColumnName="WxfQzbjt" />
+          <ScalarProperty Name="WxfJe" ColumnName="WxfJe" />
+          <ScalarProperty Name="ClfQzrdf" ColumnName="ClfQzrdf" />
+          <ScalarProperty Name="ClfQzbjt" ColumnName="ClfQzbjt" />
+          <ScalarProperty Name="ClfJe" ColumnName="ClfJe" />
+          <ScalarProperty Name="SjfJe" ColumnName="SjfJe" />
+          <ScalarProperty Name="Gshj" ColumnName="Gshj" />
+          <ScalarProperty Name="Mbjf" ColumnName="Mbjf" />
+          <ScalarProperty Name="Sjlx" ColumnName="Sjlx" />
+          <ScalarProperty Name="Mc" ColumnName="Mc" />
+          <ScalarProperty Name="Xh" ColumnName="Xh" />
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Ztbj" ColumnName="Ztbj" />
+          <ScalarProperty Name="Sfsd" ColumnName="Sfsd" />
+          <ScalarProperty Name="Czsj" ColumnName="Czsj" />
+          <ScalarProperty Name="Sjbj" ColumnName="Sjbj" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2c2d21525c50417d9a3aa3c7205c0f4c" Name="Diagram1" ShowGrid="false">
+        <EntityTypeShape EntityType="QuotationModel.Project" Width="1.5" PointX="0.75" PointY="24.25" />
+        <EntityTypeShape EntityType="QuotationModel.q1765_jsf" Width="1.5" PointX="3" PointY="9.75" />
+        <EntityTypeShape EntityType="QuotationModel.q1765_jszlf" Width="1.5" PointX="3" PointY="15.5" />
+        <EntityTypeShape EntityType="QuotationModel.q1765_psf" Width="1.5" PointX="3" PointY="26.875" />
+        <EntityTypeShape EntityType="QuotationModel.q1765_rdf" Width="1.5" PointX="3" PointY="21.125" />
+        <EntityTypeShape EntityType="QuotationModel.q1765_wgcpj" Width="1.5" PointX="3" PointY="3.25" />
+        <EntityTypeShape EntityType="QuotationModel.q1765_yfcl" Width="1.5" PointX="3" PointY="34.5" />
+        <EntityTypeShape EntityType="QuotationModel.q1765_zb" Width="1.5" PointX="3" PointY="41.625" />
+        <AssociationConnector Association="QuotationModel.FK_q1765_jsf_0_0" />
+        <AssociationConnector Association="QuotationModel.FK_q1765_jszlf_0_0" />
+        <AssociationConnector Association="QuotationModel.FK_q1765_psf_0_0" />
+        <AssociationConnector Association="QuotationModel.FK_q1765_rdf_0_0" />
+        <AssociationConnector Association="QuotationModel.FK_q1765_wgcpj_0_0" />
+        <AssociationConnector Association="QuotationModel.FK_q1765_yfcl_0_0" />
+        <AssociationConnector Association="QuotationModel.FK_q1765_zb_0_0" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
